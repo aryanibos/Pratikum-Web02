@@ -1,1 +1,1 @@
-# Pratikum-Web02
+# Pratikum Web02
