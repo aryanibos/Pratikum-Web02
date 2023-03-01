@@ -16,7 +16,6 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : E <br>";
-        echo "Predikat : Sangat Kurang";
     } elseif ($n_rata <= 55) {
         echo "Nama : $nama <br>";
         echo "Mata Kuliah : $matkul <br>";
@@ -25,7 +24,6 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : D <br>";
-        echo "Predikat : Kurang";
     } elseif ($n_rata <= 69) {
         echo "Nama : $nama <br>";
         echo "Mata Kuliah : $matkul <br>";
@@ -34,7 +32,6 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : C <br>";
-        echo "Predikat : Cukup ";
     } elseif ($n_rata <= 84) {
         echo "Nama : $nama <br>";
         echo "Mata Kuliah : $matkul <br>";
@@ -43,7 +40,6 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : B <br>";
-        echo "Predikat : Memuaskan";
     } elseif ($n_rata <= 100) {
         echo "Nama : $nama <br>";
         echo "Mata Kuliah : $matkul <br>";
@@ -52,7 +48,6 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : A <br>";
-        echo "Predikat : Sangat Memuaskan";
     } else {
         echo "Nama : $nama <br>";
         echo "Mata Kuliah : $matkul <br>";
@@ -61,7 +56,32 @@ if (isset($_GET['submit'])) {
         echo "Nilai Tugas/Pratikum : $pratikum <br>";
         echo "Nilai Rata-rata : ". number_format($n_rata,2,","). "<br>";
         echo "Grade Nilai : I <br>";
-        echo "Predikat : Tidak Ada";
+    }
+
+    switch ($n_rata) {
+        case ($n_rata >= 0 && $n_rata <= 35) :
+            echo "Predikat : Sangat Kurang";
+            break;
+        
+        case ($n_rata >= 36 && $n_rata <= 55) :
+            echo "Predikat : Kurang";
+            break;
+        
+        case ($n_rata >= 56 && $n_rata <= 69) :
+            echo "Predikat : Cukup";
+            break;
+
+        case ($n_rata >= 70 && $n_rata <= 84) :
+            echo "Predikat : Memuaskan";
+            break;
+        
+        case ($n_rata >= 85) :
+            echo "Predikat : Sangat Memuaskan";
+            break;
+
+        default:
+            echo "Predikat : Tidak Ada";
+            break;
     }
 }else{
     echo "Tidak Ada Data";
