@@ -26,30 +26,30 @@
                 <label for="matkul" class="col-4 col-form-label">Mata kuliah</label>
                 <div class="col-8">
                     <select id="matkul" name="matkul" class="custom-select" required="required">
-                        <option value="pemweb">Pemrograman Web</option>
-                        <option value="ddp">Dasar Dasar Pemrograman</option>
-                        <option value="bsd">Basis Data</option>
+                        <option value="Pemrograman WEB">Pemrograman Web</option>
+                        <option value="Dasar Dasar Pemrograman">Dasar Dasar Pemrograman</option>
+                        <option value="Basis Data">Basis Data</option>
                     </select>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="uts" class="col-4 col-form-label">Nilai UTS</label>
                 <div class="col-8">
-                    <input id="uts" name="uts" placeholder="Masukkan Nilai UTS" type="text" class="form-control"
+                    <input id="uts" name="uts" placeholder="Masukkan Nilai UTS" type="number" class="form-control"
                         required="required">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="uas" class="col-4 col-form-label">Nilai UAS</label>
                 <div class="col-8">
-                    <input id="uas" name="uas" placeholder="Masukkan Nilai UAS" type="text" class="form-control"
+                    <input id="uas" name="uas" placeholder="Masukkan Nilai UAS" type="number" class="form-control"
                         required="required">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="pratikum" class="col-4 col-form-label">Nilai Tugas/Pratikum</label>
                 <div class="col-8">
-                    <input id="pratikum" name="pratikum" placeholder="Masukkan Nilai TUgas/Pratikum" type="text"
+                    <input id="pratikum" name="pratikum" placeholder="Masukkan Nilai TUgas/Pratikum" type="number"
                         class="form-control" required="required">
                 </div>
             </div>
