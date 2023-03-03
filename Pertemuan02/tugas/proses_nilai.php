@@ -83,6 +83,13 @@ if (isset($_GET['submit'])) {
             echo "Predikat : Tidak Ada";
             break;
     }
+
+    if ($n_rata >= 55) {
+        echo "<br><h3>Selamat Kamu [ <span style='color: green;'>LULUS</span> ]</h3>";
+    } else {
+        echo "<br><h3>Maaf Kamu [ <span style='color: red;'>Tidak LULUS</span> ], Silahkan Coba Lagi di Tahun Depan...</h3>";
+    }
+    
 }else{
     echo "Tidak Ada Data";
 }
