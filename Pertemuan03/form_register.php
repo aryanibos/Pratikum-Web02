@@ -40,12 +40,14 @@ $domisilis = [
 </head>
 
 <body>
-    <div class="container">
+    <div class="container my-5">
         <div class="mt-5 mb-5">
-            <h2>Form Pendaftaran</h2>
+            <center>
+                <h2>Form Pendaftaran</h2>
+            </center>
         </div>
 
-        <form action="proses_register.php" method="post">
+        <form action="proses_register.php" class="form-horizontal w-75 mt-5 mx-auto p-4 border shadow-sm" method="post">
             <div class="form-group row">
                 <label for="nim" class="col-4 col-form-label">NIM</label>
                 <div class="col-8">

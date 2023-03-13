@@ -45,6 +45,7 @@ if (isset($_POST['submit'])) {
         foreach ($skills as $skill) {
             $hasil = $hasil + $skill_list[$skill];
         }
+        
         if ($hasil >= 100 ) {
             $hasil = "Sangat Baik";
         } elseif ($hasil >= 60) {
@@ -56,6 +57,7 @@ if (isset($_POST['submit'])) {
         } else {
             $hasil = "Tidak Memandai";
         }
+        
         return $hasil;
     }
     
