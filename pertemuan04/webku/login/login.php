@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login PAGE | APPKU</title>
 
+
+
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
     <!-- icheck bootstrap -->
@@ -19,6 +22,11 @@
     <link rel="stylesheet" href="../plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
     <!-- Toastr -->
     <link rel="stylesheet" href="../plugins/toastr/toastr.min.css">
+    <style>
+    body {
+        font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    </style>
 </head>
 
 <body class="hold-transition login-page">
@@ -26,10 +34,10 @@
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="../#" class="h1"><b>Aplikasi</b>KU</a>
+                <a href="#" class="h1"><b>E-Bengkel c<span style="color: red;">AR</span>s</b></a>
             </div>
             <div class="card-body">
-                <p class="login-box-msg">Masukan Username dan Password...</p>
+                <p class="login-box-msg">Silahkan Login Terlebih Dahulu...</p>
 
                 <form action="proses_login.php" method="post">
                     <div class="input-group mb-3">
