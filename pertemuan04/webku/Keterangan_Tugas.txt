@@ -1,0 +1,4 @@
+login : localhost/login/login.php
+
+User : Admin 
+Pw : Admin
