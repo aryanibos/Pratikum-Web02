@@ -1,10 +1,10 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
     
-    if ($username === 'admin' && $password === 'admin') {
+    if ($email === 'admin@gmail.com' && $password === 'admin') {
         // jika benar maka
         header("location:../index.php");
     } else {
@@ -14,6 +14,3 @@ if (isset($_POST['submit'])) {
 } else {
     echo "Cari Apa Hayooo......!";
 }
-
-
-?>

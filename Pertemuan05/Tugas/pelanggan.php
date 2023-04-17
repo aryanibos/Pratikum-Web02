@@ -18,8 +18,8 @@ $rs = $dbh->query($sql);
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-6">
-                            <h3 class=" mt-3"> Daftar Produk</h3>
-                            <a href="kelola-produk.php">
+                            <h3 class=" mt-3"> Daftar Pelanggan</h3>
+                            <a href="tambah_pelanggan.php">
                                 <div class="btn-group mb-3">
                                     <button class="btn btn-dark">
                                         <i class="fas fa-plus"></i>
@@ -80,17 +80,17 @@ $rs = $dbh->query($sql);
                                     <td>
                                         <div class="row">
                                             <div class="col-md-4">
-                                                <a href="" class="">
+                                                <a href="view_pelanggan.php?id=<?= $row['id'] ?>" class="">
                                                     <i class="fas fa-info text-primary"></i>
                                                 </a>
                                             </div>
                                             <div class="col-md-4">
-                                                <a href="" class="">
+                                                <a href="edit_pelanggan.php?idedit=<?= $row['id'] ?>" class="">
                                                     <i class="fas fa-pencil-alt text-success"></i>
                                                 </a>
                                             </div>
                                             <div class="col-md-4">
-                                                <a href="" class="">
+                                                <a href="delete_pelanggan.php?iddel=<?= $row['id'] ?>" class="" onclick="if(!confirm('Anda Yakin Hapus Data Pelanggan <?= $row['nama'] ?>?')) {return false}">
                                                     <i class="fas fa-trash-alt text-danger"></i>
                                                 </a>
                                             </div>

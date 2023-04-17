@@ -1,4 +1,4 @@
-<?Php 
+<?Php
 
 include_once('templates/topbar.php');
 include_once('templates/sidebar.php');
@@ -45,12 +45,17 @@ include_once('templates/sidebar.php');
                     </nav>
                     <div class="tab-content p-3" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="product-desc" role="tabpanel"
-                            aria-labelledby="product-desc-tab">Bengkel c<span style="color: red;">AR</span>s adalah
-                            bengkel mobil profesional dengan layanan
-                            ganti oli, tune up, ganti aki, servis AC, Servis rem, shock absorber, scanner tools dan juga
-                            berbagai servis berkala dan perawatan mobil lainnya. quality management system memastikan
-                            hasil terbaik untuk perawatan mobil anda. Kami memberikan jaminan kepuasan untuk semua
-                            servis, perawatan dan pelayanan kami. <br> Ada Tiga Metode yang Anda Dapatkan Di kami:<br>
+                            aria-labelledby="product-desc-tab" style="text-align: justify;"><span
+                                style="color: red;">&nbsp;&nbsp;&nbsp;&nbsp;AR</span>TECH adalah
+                            aplikasi yang memberikan solusi lengkap untuk para profesional di bidang teknologi. Aplikasi
+                            ini menawarkan berbagai alat, sumber daya, dan informasi untuk membantu para profesional
+                            meningkatkan keterampilan mereka dan mengembangkan karier mereka. Aplikasi ini juga
+                            menyediakan berbagai artikel berkualitas tinggi dari para ahli di bidang teknologi, termasuk
+                            tips dan trik tentang bagaimana cara terbaik untuk menggunakan alat-alatnya. Aplikasi ini
+                            juga memiliki fitur diskusi yang memungkinkan pengguna untuk bertukar ide dan berbagi
+                            pengetahuan dengan sesama profesional di bidang teknologi. ARTECH adalah aplikasi yang
+                            sempurna bagi para profesional teknologi yang ingin tetap up to date dengan perkembangan
+                            terkini dalam industri.. <br> Ada Tiga Metode yang Anda Dapatkan Di kami:<br>
                             <ol>
                                 <li>Layanan Service</li>
                                 <p>
